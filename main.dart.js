@@ -9072,7 +9072,7 @@ this.d=b
 this.a=c},
 aLQ(a){var s=0,r=A.J(t.oK),q,p=2,o,n,m,l,k,j,i,h,g,f
 var $async$aLQ=A.K(function(b,c){if(b===1){o=c
-s=p}while(true)switch(s){case 0:i=A.fD("http://localhost:7050/api/v1/chat-assistant/new-chat",0,null)
+s=p}while(true)switch(s){case 0:i=A.fD("http://194.26.232.76:7050/api/v1/chat-assistant/new-chat",0,null)
 h=t.N
 g=A.Q(["theme",a,"user_id","1"],h,h)
 p=4
@@ -9109,7 +9109,7 @@ aLK(a){var s=0,r=A.J(t.N),q,p,o,n,m,l
 var $async$aLK=A.K(function(b,c){if(b===1)return A.G(c,r)
 while(true)switch(s){case 0:m=$.aZF
 s=3
-return A.N(A.aLW(A.aJa("http","localhost:7050","/api/v1/chat-assistant/get-response",A.Q(["chat-id",m==null?null:J.c4(m.a),"user-id","1","new-message-text",a],t.N,t.z)),null),$async$aLK)
+return A.N(A.aLW(A.aJa("http","194.26.232.76:7050","/api/v1/chat-assistant/get-response",A.Q(["chat-id",m==null?null:J.c4(m.a),"user-id","1","new-message-text",a],t.N,t.z)),null),$async$aLK)
 case 3:l=c
 try{if(l.b===200){m=l
 A.c_("\u041e\u0442\u0432\u0435\u0442 \u0441\u0435\u0440\u0432\u0435\u0440\u0430: "+A.Ol(J.aZ(A.Of(m.e).c.a,"charset")).ei(0,m.w))
@@ -49560,7 +49560,7 @@ return A.I($async$ll,r)},
 D1(){var s=0,r=A.J(t.N),q,p=this,o,n,m,l,k
 var $async$D1=A.K(function(a,b){if(a===1)return A.G(b,r)
 while(true)switch(s){case 0:s=3
-return A.N(A.aLW(A.aJa("http","localhost:7050","/api/v1/voice-assistant/get-next-state",A.Q(["currentState",p.b,"request",p.f],t.N,t.z)),null),$async$D1)
+return A.N(A.aLW(A.aJa("http","194.26.232.76:7050","/api/v1/voice-assistant/get-next-state",A.Q(["currentState",p.b,"request",p.f],t.N,t.z)),null),$async$D1)
 case 3:k=b
 try{if(k.b===200){m=k
 A.c_("\u041e\u0442\u0432\u0435\u0442 \u0441\u0435\u0440\u0432\u0435\u0440\u0430: "+A.Ol(J.aZ(A.Of(m.e).c.a,"charset")).ei(0,m.w))
@@ -50055,7 +50055,7 @@ EY(a,b){return this.aEH(a,b)},
 aEH(a,b){var s=0,r=A.J(t.a),q,p,o,n,m
 var $async$EY=A.K(function(c,d){if(c===1)return A.G(d,r)
 while(true)switch(s){case 0:s=3
-return A.N(A.aLW(A.aJa("http","localhost:7050","/page-for-user",A.Q(["user-id","1","page",B.e.k(a),"page-size",B.e.k(b)],t.N,t.z)),null),$async$EY)
+return A.N(A.aLW(A.aJa("http","194.26.232.76:7050","/page-for-user",A.Q(["user-id","1","page",B.e.k(a),"page-size",B.e.k(b)],t.N,t.z)),null),$async$EY)
 case 3:m=d
 try{if(m.b===200){o=m
 o=B.bu.ys(0,A.Ol(J.aZ(A.Of(o.e).c.a,"charset")).ei(0,o.w),null)
